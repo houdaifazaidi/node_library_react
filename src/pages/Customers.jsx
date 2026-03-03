@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const API = '';
+const API = 'https://node-library-customers.vercel.app';
 
 export default function Customers() {
     const [customers, setCustomers] = useState([]);

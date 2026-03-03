@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 
-const ORDERS_API = '';
-const BOOKS_API = '';
-const CUSTOMERS_API = '';
+const ORDERS_API = 'https://node-library-orders.vercel.app';
+const BOOKS_API = 'https://node-library-books.vercel.app';
+const CUSTOMERS_API = 'https://node-library-customers.vercel.app';
 
 export default function Orders() {
     const [orders, setOrders] = useState([]);
