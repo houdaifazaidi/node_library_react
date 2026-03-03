@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 
-const ORDERS_API = '/api';
-const BOOKS_API = '/api';
-const CUSTOMERS_API = '/api';
+const ORDERS_API = '';
+const BOOKS_API = '';
+const CUSTOMERS_API = '';
 
 export default function Orders() {
     const [orders, setOrders] = useState([]);
