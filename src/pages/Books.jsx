@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const API = '/api/books';
+const API = '/api';
 
 export default function Books() {
     const [books, setBooks] = useState([]);
